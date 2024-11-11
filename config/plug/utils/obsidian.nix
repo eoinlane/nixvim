@@ -15,12 +15,8 @@
       #current markdown file being edited.
       workspaces = [
         {
-          name = "personal";
-          path = "~/Dropbox/vaults/personal";
-        }
-        {
-          name = "work";
-          path = "~/Dropbox/vaults/work";
+          name = "Notes";
+          path = "smb://raspberrypi/mymedia/vaults/notes";
         }
       ];
       # -- Optional, if you keep notes in a specific subdirectory of your vault.
