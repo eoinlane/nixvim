@@ -7,8 +7,6 @@
         min_chars = 2;
         nvim_cmp = true;
       };
-      new_notes_location = "current_dir";
-
       # A list of workspace names, paths, and configuration overrides
       #If you use the Obsidian app, the 'path' of a workspace should generally being
       # your vault root (where the `.obsidian` folder is located).of
@@ -26,15 +24,6 @@
         }
       ];
       # -- Optional, if you keep notes in a specific subdirectory of your vault.
-      notes_subdir = "notes";
-
-      daily_notes = {
-        folder = "~/Dropbox/notes/dailies";
-        date_format = "%Y-%m-%d";
-        alias_format = "%B %-d, %Y";
-        default_tags = [ "daily-notes" ];
-      };
-
       # Optional, configure key mappings. These are the defaults. If you don't want to set any keymappings thisway
       # way then set 'mappings = {}'.
 
