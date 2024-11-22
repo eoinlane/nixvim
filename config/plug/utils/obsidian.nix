@@ -16,7 +16,7 @@
       workspaces = [
         {
           name = "Notes";
-          path = "smb://raspberrypi/mymedia/vaults/notes";
+          path = "/mnt/media/vaults/notes";
         }
       ];
       # -- Optional, if you keep notes in a specific subdirectory of your vault.
