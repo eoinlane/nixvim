@@ -16,7 +16,7 @@
       workspaces = [
         {
           name = "Notes";
-          path = "/mnt/media/vaults/notes";
+          path = "~/media/vaults/notes";
         }
       ];
       # -- Optional, if you keep notes in a specific subdirectory of your vault.
